@@ -31,7 +31,7 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 # load CSV file using pandas
-data = pd.read_csv('C:\\Users\\王贤\\PycharmProjects\\cs2\\Data.csv', sep=',', header=0)
+data = pd.read_csv('C:\\PycharmProjects\\cs2\\Data.csv', sep=',', header=0)
 
 data = data[data.iloc[:, -1] <= 2]
 
